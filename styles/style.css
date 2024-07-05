@@ -1,0 +1,106 @@
+/* fonts */
+
+/* unico one */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
+/* font-family: "Unica One", sans-serif; */
+
+/* dancing script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* font-family: "Dancing Script", cursive; */
+
+/* noto serif balinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+/* font-family: "Noto Serif Balinese", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Arsenal SC", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
+/* font-family: "Beiruti", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* font-family: "Abel", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+/* font-family: "Inconsolata", monospace;
+font-optical-sizing: auto; */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Courier Prime", monospace; */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fafafa;
+    background-color: black;
+    /* background-color: #f6f6f6; */
+}
+
+::selection {
+    color: #dedeff;
+    background-color: rgb(1, 1, 19);
+}
+
+.construction {
+    font-family: "Abel", sans-serif;
+    padding: 4em;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-bottom: 0.4em;
+    padding: 0.6em 1em;
+}
+
+.web-title {
+    font-size: 1.7em;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    font-size: 0.9em;
+    align-self: center;
+    color: rgba(255, 255, 255, 0.80);
+    list-style: none;
+    text-decoration: none;
+    transition: 0.6s;
+    font-family: "Courier Prime", monospace;
+}
+
+a:hover {
+    color: white;
+}
+
+.active-page {
+    font-weight: bold;
+    color: white;
+}
+
+.mob-nav {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

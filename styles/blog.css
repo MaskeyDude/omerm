@@ -1,0 +1,114 @@
+body {
+    font-family: "Arsenal SC", sans-serif;
+    /* background-color: black; */
+}
+
+::selection {
+    color: #ffdede;
+    background-color: rgb(19, 1, 1);
+}
+
+.type-title {
+    margin: 0.6em;
+    font-family: "Unica One", sans-serif;
+    text-align: center;
+    color: rgb(163, 34, 34);
+}
+
+.blogs {
+    text-align: center;
+    padding: 0.2em 0.6em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    grid-gap: 0.6em;
+}
+
+.blogs div {
+    /* sizing & positioning */
+    font-size: 1.7em;
+    padding: 0.9em 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* decor */
+    border-radius: 0.2em;
+    background-color: hsl(0, 0%, 4%);
+    transition: 0.4s;
+}
+
+.blogs div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 red;
+}
+
+.blogs div a {
+    color: #fafafa;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.blogs div a:hover {
+    color: red;
+}
+
+.time {
+    /* sizing & positioning */
+    font-size: 0.5em;
+    /* decor */
+    color: rgba(255, 255, 255, 0.66);
+    font-family: "Arsenal SC", sans-serif;
+}
+
+@media (max-width: 700px) {
+
+    .blogs {
+        grid-template-columns: 1fr;
+        grid-gap: 0.8em;
+        padding: 0.2em 0.8em;
+    }
+
+    .blogs div {
+        display: block;
+        font-size: 1.46em;
+        padding: 0.6em;
+        line-height: 1em;
+    }
+
+}
+
+/* one blog edits */
+
+.blog-info {
+    text-align: center;
+    /* color: #fafafa; */
+}
+
+.blog-info h1 {   
+    font-family: "Unica One", sans-serif;
+    text-align: center;
+    color: rgb(163, 34, 34);
+}
+
+.the-blah {
+    font-size: 1.2em;
+    /* color: #fafafa; */
+    padding: 1em;
+}
+
+.sub-title {
+    margin: 0.4em 0;
+    font-family: "Unica One", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(163, 34, 34);
+}
+
+
+
+
+
+
+
+
+
+
