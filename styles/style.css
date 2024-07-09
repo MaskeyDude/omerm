@@ -88,7 +88,35 @@ a:hover {
     display: none;
 }
 
+/* custom styling */
 
+.lil-margin {
+    margin-bottom: 0.6em;
+}
+
+.lil-sizing {
+    font-size: larger;
+}
+
+.font-0 {
+    font-family: "Unica One", sans-serif;
+}
+
+.font-1 {
+    font-family: "Dancing Script", cursive;
+}
+
+.font-2 {
+    font-family: "Abel", sans-serif;
+}
+
+.font-3 {
+    font-family: "Courier Prime", monospace;
+}
+
+.font-4 {
+    font-family: "Arsenal SC", sans-serif;
+}
 
 
 
