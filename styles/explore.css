@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(7, 5, 2);
+}
+
+main {
+    margin: 0.6em;
+}
+
+.explore-info {
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    margin: 0.6em 0 2em 0;
+}
+
+h1 {
+    font-size: 2.9em;
+    color: #fff;
+    font-weight: lighter;
+    transition: 0.4s;
+}
+
+h1:hover {
+    cursor: pointer;
+    letter-spacing: 9px;
+    font-weight: bold;
+    color: #fdcf4f;
+}
+
+.hide-show {
+    display: none;
+}
+
+hr {
+    margin: 0.4em 0;
+    height: 1px;
+    border: none;
+    background-color: #fdcf4f;
+}
+
+.explore-grid {
+    /* margin: 0.6em; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 0.6em;
+}
+
+.explore-grid section {
+    padding: 0.6em;
+    height: fit-content;
+    border-radius: 6px;
+    border: 1px solid #161616;
+    background-color: #0a0a0a;
+    transition: 0.4s;
+}
+
+.explore-grid h4 {
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 0.6em;
+    text-align: left;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.explore-grid section:hover {
+    box-shadow: 0 0 6px 0 #fdcf4f;
+}
+
+.explore-grid a {
+    color: #fdcf4f;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.explore-grid p {
+    margin: 0.4em 0;
+    font-size: 1.6em;
+    font-family: "Dancing Script", cursive;
+}
+
+.explore-grid a:hover {
+    font-weight: bold;
+}
+
+.font-0 {
+    font-family: "Unica One", sans-serif;
+}
+
+.font-1 {
+    font-family: "Dancing Script", cursive;
+}
+
+.font-2 {
+    font-family: "Abel", sans-serif;
+}
+
+.font-3 {
+    font-family: "Courier Prime", monospace;
+}
+
+.font-4 {
+    font-family: "Arsenal SC", sans-serif;
+}
