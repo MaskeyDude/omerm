@@ -1,8 +1,3 @@
-body {
-    font-family: "Arsenal SC", sans-serif;
-    /* background-color: black; */
-}
-
 .web-title {
     color: rgb(163, 34, 34);
 }
@@ -93,14 +88,14 @@ body {
     box-shadow: 0 0 6px 0 rgb(255, 19, 19);
 }
 
-.blogs div a {
-    font-family: "Unica One", sans-serif;
+.blog a {
     color: #fafafa;
     text-decoration: none;
     transition: 0.4s;
+    font-family: "Unica One", sans-serif;
 }
 
-.blogs div a:hover {
+.blog a:hover {
     color: red;
 }
 
@@ -183,3 +178,81 @@ body {
     font-weight: bold;
     color: rgb(163, 34, 34);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+/* font-family: "Playwrite AU QLD", cursive; */
+
+/* unico one */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
+/* font-family: "Unica One", sans-serif; */
+
+/* dancing script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* font-family: "Dancing Script", cursive; */
+
+/* noto serif balinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+/* font-family: "Noto Serif Balinese", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Arsenal SC", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
+/* font-family: "Beiruti", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* font-family: "Abel", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+/* font-family: "Inconsolata", monospace;
+font-optical-sizing: auto; */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Courier Prime", monospace; */
