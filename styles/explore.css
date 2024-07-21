@@ -41,8 +41,34 @@ hr {
     background-color: #fdcf4f;
 }
 
+.sectioning-title {
+    /* adjustments */
+    margin: 0.6em auto;
+    padding: 0.4em 0.8em 0.8em 0.8em;
+    width: fit-content;
+    /* styling */
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    border-right: 1.9px dashed #fff;
+    border-top: 1.9px dashed #fff;
+    border-left: 1.9px dashed #fff;
+    border-radius: 0.4em;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.sectioning-title:hover {
+    cursor: zoom-in;
+    font-size: 1.4em;
+    font-style: italic;
+    letter-spacing: 0;
+    border-style: groove;
+}
+
 .explore-grid {
-    /* margin: 0.6em; */
+    margin-bottom: 2em;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     grid-gap: 0.6em;

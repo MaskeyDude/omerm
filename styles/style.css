@@ -1,3 +1,5 @@
+/* across all pages */
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -12,13 +14,6 @@ body {
 ::selection {
     color: #dedeff;
     background-color: rgb(1, 1, 19);
-}
-
-.construction {
-    font-family: "Abel", sans-serif;
-    padding: 4em;
-    font-size: 1.4em;
-    text-align: center;
 }
 
 nav {
@@ -58,6 +53,25 @@ nav a:hover {
     display: none;
 }
 
+main {
+    margin: 1em 0;
+    /* for footer */
+    min-height: 100vh;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: "Courier Prime", monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer p {
+    padding: 1em;
+}
+
 /* custom styling */
 
 .lil-margin {
@@ -89,12 +103,14 @@ nav a:hover {
 }
 
 
+/* home */
 
-
-
-
-
-
+.construction {
+    font-family: "Abel", sans-serif;
+    padding: 4em;
+    font-size: 1.4em;
+    text-align: center;
+}
 
 
 

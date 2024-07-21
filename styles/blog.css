@@ -1,3 +1,5 @@
+/* all */
+
 .web-title {
     color: rgb(163, 34, 34);
 }
@@ -8,6 +10,13 @@
     /* color: #ffdede;
     background-color: rgb(19, 1, 1); */
 }
+
+footer {
+    color: #fff;
+    background-color: rgb(163, 34, 34);
+}
+
+/* blogs page */
 
 .blogs-page-info {
     width: 77%;
@@ -167,7 +176,7 @@
 }
 
 .the-blah {
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 0 1em;
 }
 
