@@ -113,6 +113,19 @@ footer p {
 }
 
 
+/* home */
+
+.quotes {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+.quo {
+    font-size: 1.7em;
+}
+
 
 
 
