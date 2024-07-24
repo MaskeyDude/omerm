@@ -1,9 +1,64 @@
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+/* font-family: "Playwrite AU QLD", cursive; */
+
+/* unico one */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
+/* font-family: "Unica One", sans-serif; */
+
+/* dancing script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* font-family: "Dancing Script", cursive; */
+
+/* noto serif balinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+/* font-family: "Noto Serif Balinese", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Arsenal SC", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
+/* font-family: "Beiruti", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* font-family: "Abel", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+/* font-family: "Inconsolata", monospace;
+font-optical-sizing: auto; */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Courier Prime", monospace; */
+
+
 body {
     background-color: rgb(7, 5, 2);
 }
 
 .web-title {
+    color: #e6bd4f;
+}
+
+::selection {
+    color: #000;
+    background-color: #fdcf4f;
+    /* color: #ffdede;
+    background-color: rgb(19, 1, 1); */
+}
+
+nav a {
+    color: rgba(253, 207, 79, 0.3);
+}
+
+nav a:hover {
+    color: #cca53b;
+}
+
+.active-page {
     color: #fdcf4f;
+    border-color: #fdcf4f;
 }
 
 main {
@@ -160,36 +215,3 @@ hr {
 
 
 
-
-/* fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
-/* font-family: "Playwrite AU QLD", cursive; */
-
-/* unico one */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
-/* font-family: "Unica One", sans-serif; */
-
-/* dancing script */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-/* font-family: "Dancing Script", cursive; */
-
-/* noto serif balinese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
-/* font-family: "Noto Serif Balinese", serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Arsenal SC", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
-/* font-family: "Beiruti", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-/* font-family: "Abel", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
-/* font-family: "Inconsolata", monospace;
-font-optical-sizing: auto; */
-
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Courier Prime", monospace; */

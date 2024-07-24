@@ -1,7 +1,45 @@
-/* all */
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+/* font-family: "Playwrite AU QLD", cursive; */
+
+/* unico one */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
+/* font-family: "Unica One", sans-serif; */
+
+/* dancing script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* font-family: "Dancing Script", cursive; */
+
+/* noto serif balinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+/* font-family: "Noto Serif Balinese", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Arsenal SC", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
+/* font-family: "Beiruti", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* font-family: "Abel", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+/* font-family: "Inconsolata", monospace;
+font-optical-sizing: auto; */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Courier Prime", monospace; */
+
+
+
+
+
+
+/* all + main */
 
 .web-title {
-    color: rgb(163, 34, 34);
+    color: #a32222;
 }
 
 ::selection {
@@ -11,10 +49,28 @@
     background-color: rgb(19, 1, 1); */
 }
 
+nav a {
+    color: rgba(139, 0, 0, 0.66);
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+.active-page {
+    color: darkred;
+    border-color: darkred;
+}
+
 footer {
     color: #fff;
     background-color: rgb(163, 34, 34);
 }
+
+
+
+
+
 
 /* blogs page */
 
@@ -94,7 +150,7 @@ footer {
 
 .blogs div:hover {
     cursor: pointer;
-    box-shadow: 0 0 6px 0 rgb(255, 19, 19);
+    box-shadow: 0 0 6px 0 #ff1313;
 }
 
 .blog a {
@@ -167,6 +223,11 @@ footer {
     color: rgb(163, 34, 34);
 }
 
+.blog-info p {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255);
+}
+
 .blog-info hr {
     width: 94%;
     height: 1px;
@@ -233,35 +294,3 @@ footer {
 
 
 
-/* fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
-/* font-family: "Playwrite AU QLD", cursive; */
-
-/* unico one */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
-/* font-family: "Unica One", sans-serif; */
-
-/* dancing script */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-/* font-family: "Dancing Script", cursive; */
-
-/* noto serif balinese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
-/* font-family: "Noto Serif Balinese", serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Arsenal SC", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
-/* font-family: "Beiruti", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-/* font-family: "Abel", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
-/* font-family: "Inconsolata", monospace;
-font-optical-sizing: auto; */
-
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Courier Prime", monospace; */

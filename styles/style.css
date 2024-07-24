@@ -1,3 +1,43 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+/* font-family: "Playwrite AU QLD", cursive; */
+
+/* unico one */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
+/* font-family: "Unica One", sans-serif; */
+
+/* dancing script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* font-family: "Dancing Script", cursive; */
+
+/* noto serif balinese */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+/* font-family: "Noto Serif Balinese", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Arsenal SC", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
+/* font-family: "Beiruti", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* font-family: "Abel", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+/* font-family: "Inconsolata", monospace;
+font-optical-sizing: auto; */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Courier Prime", monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* font-family: "Great Vibes", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+/* font-family: "Afacad", sans-serif; */
+
+
 /* across all pages */
 
 * {
@@ -7,13 +47,13 @@
 
 body {
     color: #fafafa;
-    background-color: black;
+    background-color: #000;
     /* background-color: #f6f6f6; */
 }
 
 ::selection {
-    color: #dedeff;
-    background-color: rgb(1, 1, 19);
+    color: #000;
+    background-color: #fff;
 }
 
 nav {
@@ -21,17 +61,21 @@ nav {
     justify-content: space-evenly;
     background-color: black;
     margin-bottom: 0.4em;
-    padding: 0.6em 1em;
+    padding: 0 1em;
 }
 
 .web-title {
-    font-size: 1.7em;
+    font-size: 1.8em;
     color: white;
     font-weight: bold;
 }
 
 nav a {
-    font-size: 0.9em;
+    padding: 0.6em 1em;
+    width: 100%;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 1em;
     align-self: center;
     color: rgba(255, 255, 255, 0.80);
     list-style: none;
@@ -41,12 +85,18 @@ nav a {
 }
 
 nav a:hover {
+    font-weight: bolder;
     color: white;
+    letter-spacing: 2px;
 }
 
+
 .active-page {
+    border-bottom: 1px solid;
     font-weight: bold;
     color: white;
+    letter-spacing: 2px;
+    /* background-color: rgba(255, 255, 255, 0.4); */
 }
 
 .mob-nav {
@@ -105,6 +155,10 @@ footer p {
 
 /* home */
 
+.active-home {
+    color: aqua;
+}
+
 .construction {
     font-family: "Abel", sans-serif;
     padding: 4em;
@@ -117,35 +171,38 @@ footer p {
 
 .random-quotes {
     margin: 1em auto;
-    padding: 1em;
+    padding: 0.8em;
     max-width: 90%;
     width: fit-content;
-    text-align: center;
+    text-align: left;
     border-radius: 0.6em;
     background-color: #000000;
-    box-shadow: 0 0 6px 0.8px #e0d42b;
+    box-shadow: 0 0 3px 0.46px #fdcf4f;
 }
 
 .quote {
     /* color: rgb(139, 78, 70); */
     /* text-shadow: 2px 2px 2px #111a91; */
     font-style: italic;
-    font-weight: bold;
-    font-size: 1.6em;
-    font-family: "Dancing Script", cursive;
+    font-size: 1.4em;
+    font-family: "Afacad", sans-serif;
 }
 
 .q-by {
-    font-size: 0.8em;
-    text-align: start;
+    font-size: 0.9em;
+    text-align: end;
     margin-top: 0.8em;
-    color: #e0d42b;
+    color: #fdd25c;
     /* font-weight: bold; */
     font-family: "Unica One", sans-serif;
+    transition: 0.4s;
+}
+
+.q-by:hover {
+    font-weight: bold;
 }
 
 .q-btn {
-    text-align: right;
     display: block;
     margin: 0 auto;
     padding: 0.6em;
@@ -166,6 +223,29 @@ footer p {
     color: #fff;
     border-color: #fff;
     border-width: 2px;
+    visibility: visible;
+}
+
+.q-btn .q-tooltiptxt {
+    visibility: hidden;
+}
+
+.q-btn:hover .q-tooltiptxt {
+    visibility: visible;
+}
+
+.q-tooltiptxt {
+    position: absolute;
+    z-index: 1;
+    width: fit-content;
+    padding: 0.6em;
+    border-radius: 4px;
+    /* border: 1px solid; */
+    box-shadow: 0 1px 0 0.46px #fdcf4f;
+    color: #fdd25c;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+
 }
 
 
@@ -217,37 +297,3 @@ footer p {
 
 
 
-
-
-/* fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
-/* font-family: "Playwrite AU QLD", cursive; */
-
-/* unico one */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
-/* font-family: "Unica One", sans-serif; */
-
-/* dancing script */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-/* font-family: "Dancing Script", cursive; */
-
-/* noto serif balinese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
-/* font-family: "Noto Serif Balinese", serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Arsenal SC", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
-/* font-family: "Beiruti", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-/* font-family: "Abel", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
-/* font-family: "Inconsolata", monospace;
-font-optical-sizing: auto; */
-
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Courier Prime", monospace; */
