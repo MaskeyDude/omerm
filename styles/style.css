@@ -115,15 +115,57 @@ footer p {
 
 /* home */
 
-.quotes {
-    font-family: "Dancing Script", cursive;
+.random-quotes {
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 90%;
+    width: fit-content;
     text-align: center;
-    font-style: italic;
-    font-size: 1.4em;
+    border-radius: 0.6em;
+    background-color: #000000;
+    box-shadow: 0 0 6px 0.8px #e0d42b;
 }
 
-.quo {
-    font-size: 1.7em;
+.quote {
+    /* color: rgb(139, 78, 70); */
+    /* text-shadow: 2px 2px 2px #111a91; */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: "Dancing Script", cursive;
+}
+
+.q-by {
+    font-size: 0.8em;
+    text-align: start;
+    margin-top: 0.8em;
+    color: #e0d42b;
+    /* font-weight: bold; */
+    font-family: "Unica One", sans-serif;
+}
+
+.q-btn {
+    text-align: right;
+    display: block;
+    margin: 0 auto;
+    padding: 0.6em;
+    font-family: "Unica One", sans-serif;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border: 1px groove rgba(255, 255, 255, 0.6);
+    border-radius: 0.6em;
+    transition: 0.4s;
+}
+
+.q-btn:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+    /* font-size: 0.9em; */
+    font-weight: bold;
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
 }
 
 

@@ -2,18 +2,18 @@ const Generate_Quote = function () {
 
     const Quotes = [
         {
-            quote: "“If you don't sacrifice for what you want, what you want becomes the sacrifice.”",
-            author: "Alex Eubank"
+            quote: "“ If you don't sacrifice for what you want, what you want becomes the sacrifice. ”",
+            author: "- ALEX EUBANK"
         },
 
         {
-            quote: "“There is no one who avoids you as much as someone who owes you an apology.”",
-            author: "@Persephonesmind"
+            quote: "“ There is no one who avoids you as much as someone who owes you an apology. ”",
+            author: "@PERSEPHONESMIND"
         },
 
         {
-            quote: "“The one person that can give you the love you need is yourself.”",
-            author: "@Persephonesmind"
+            quote: "“ The one person that can give you the love you need is yourself. ”",
+            author: "@PERSEPHONESMIND"
         },
 ];
 
