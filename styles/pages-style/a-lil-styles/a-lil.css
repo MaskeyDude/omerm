@@ -24,15 +24,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
 /* 7 font-family: "Playwrite AU QLD", cursive; */
 
-/* custom styling */
-
-.lil-margin {
-    margin-bottom: 0.6em;
-}
-
-.lil-sizing {
-    font-size: larger;
-}
 
 .font-0 {
     font-family: "Unica One", sans-serif;
@@ -66,9 +57,8 @@
     font-family: "Playwrite AU QLD", cursive;
 }
 
+/* across every lil pagooo! */
 
-
-/* across all pages */
 
 * {
     margin: 0;
@@ -91,18 +81,16 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     background-color: black;
-    box-shadow: 0 0 6px 0 #222;
+    font-size: 0.8em;
 }
 
-
 nav a {
-    padding: 1em 0em;
+    padding: 0.6em 0em;
     width: 100%;
     text-align: center;
     border-radius: 2px;
-    font-size: 1em;
     align-self: center;
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(255, 255, 255, 0.4);
     list-style: none;
     text-decoration: none;
     transition: 0.6s;
@@ -122,66 +110,57 @@ nav a:hover {
     letter-spacing: 2px;
 }
 
+/* .lil-active {
+    color: #000;
+    background-color: #444;
+} */
+
 .active-page {
     border-bottom: 1px solid;
     font-weight: bold;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     letter-spacing: 2px;
-    /* background-color: rgba(255, 255, 255, 0.4); */
 }
 
 /* nav dropdown */
 
 .nav-dropdown {
-    display: none;
-    /* visibility: hidden; */
-    /* position: absolute;
-    z-index: 1; */
-    width: fit-content;
-    margin: 0.6em 1em;
+    max-width: 50em;
+    margin: 1em auto 0 auto;
     border-radius: 0.4em 0.4em 0 0;
-    /* font-family: "Abel", sans-serif; */
-    font-family: "Afacad", sans-serif;
+    font-family: "Arsenal SC", sans-serif;
+    /* font-family: "Afacad", sans-serif; */
 }
 
 .nav-dropdown a {
     display: inline-block;
     /* width: 100%; */
-    margin: 0.1em;
     padding: 0.4em 2em;
     font-size: 1.2em;
     text-decoration: none;
-    border: 1px solid;
+    border: none;
     border-radius: 0.4em 0.4em 0 0;
-    color: rgba(255, 255, 255, 0.46);
+    color: #818181;
+    font-weight: bold;
     transition: 0.4s;
 }
 
 .nav-dropdown a:hover {
     color: #fff;
-    border: 1px solid;
 }
 
-.nav-visible {
-    display: block;
-    /* visibility: visible; */
-}
-
-.after-dropdown  {
-    box-shadow: none;
-    font-size: 0.8em;
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.4); */
-}
-
-.after-dropdown a {
-    padding: 0.2em;
-    color: rgba(255, 255, 255, 0.4);
+.lil-active {
+    color: #fff;
+    background-color: #111;
 }
 
 main {
-    margin: 1em 0;
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 1.7em 1em;
     /* for footer */
     min-height: 100vh;
+    background-color: #111;
 }
 
 footer {
@@ -196,111 +175,6 @@ footer {
 footer p {
     padding: 1em;
 }
-
-
-
-
-/* home */
-
-.active-home {
-    color: aqua;
-}
-
-.construction {
-    font-family: "Abel", sans-serif;
-    padding: 4em;
-    font-size: 1.4em;
-    text-align: center;
-}
-
-/* quote */
-
-.random-quotes {
-    margin: 1em auto;
-    padding: 0.8em;
-    max-width: 90%;
-    width: fit-content;
-    text-align: left;
-    border-radius: 0.6em;
-    background-color: #000000;
-    box-shadow: 0 0 3px 0.46px #fdcf4f;
-}
-
-.quote {
-    /* color: rgb(139, 78, 70); */
-    /* text-shadow: 2px 2px 2px #111a91; */
-    font-style: italic;
-    font-size: 1.4em;
-    font-family: "Afacad", sans-serif;
-}
-
-.q-by {
-    font-size: 0.9em;
-    text-align: end;
-    margin-top: 0.8em;
-    color: #fdd25c;
-    /* font-weight: bold; */
-    font-family: "Unica One", sans-serif;
-    transition: 0.4s;
-}
-
-.q-by:hover {
-    font-weight: bold;
-}
-
-.q-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 0.6em;
-    font-family: "Unica One", sans-serif;
-    font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.6);
-    background: none;
-    border: 1px groove rgba(255, 255, 255, 0.6);
-    border-radius: 0.6em;
-    transition: 0.4s;
-}
-
-.q-btn:hover {
-    cursor: pointer;
-    letter-spacing: 2px;
-    /* font-size: 0.9em; */
-    font-weight: bold;
-    color: #fff;
-    border-color: #fff;
-    border-width: 2px;
-    visibility: visible;
-}
-
-.q-btn .q-tooltiptxt {
-    visibility: hidden;
-}
-
-.q-btn:hover .q-tooltiptxt {
-    visibility: visible;
-}
-
-.q-tooltiptxt {
-    position: absolute;
-    z-index: 1;
-    margin: 0 2em;
-    width: fit-content;
-    padding: 0.6em;
-    border-radius: 4px;
-    /* border: 1px solid; */
-    box-shadow: 0 1px 0 0.46px #fdcf4f;
-    color: #fdd25c;
-    background-color: rgba(0, 0, 0, 0.8);
-    font-size: 0.8em;
-    text-align: center;
-}
-
-
-
-
-
-
-
 
 
 

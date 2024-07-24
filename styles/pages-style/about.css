@@ -1,35 +1,62 @@
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
-/* font-family: "Playwrite AU QLD", cursive; */
-
-/* unico one */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
-/* font-family: "Unica One", sans-serif; */
+/* 0 font-family: "Unica One", sans-serif; */
 
-/* dancing script */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-/* font-family: "Dancing Script", cursive; */
-
-/* noto serif balinese */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
-/* font-family: "Noto Serif Balinese", serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Arsenal SC", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
-/* font-family: "Beiruti", sans-serif; */
+/* 1 font-family: "Dancing Script", cursive; */
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-/* font-family: "Abel", sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
-/* font-family: "Inconsolata", monospace;
-font-optical-sizing: auto; */
+/* 2 font-family: "Abel", sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Courier Prime", monospace; */
+/* 3 font-family: "Courier Prime", monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 4 font-family: "Arsenal SC", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* 5 font-family: "Great Vibes", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+/* 6 font-family: "Afacad", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+/* 7 font-family: "Playwrite AU QLD", cursive; */
+
+
+.font-0 {
+    font-family: "Unica One", sans-serif;
+}
+
+.font-1 {
+    font-family: "Dancing Script", cursive;
+}
+
+.font-2 {
+    font-family: "Abel", sans-serif;
+}
+
+.font-3 {
+    font-family: "Courier Prime", monospace;
+}
+
+.font-4 {
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.font-5 {
+    font-family: "Great Vibes", cursive;
+}
+
+.font-6 {
+    font-family: "Afacad", sans-serif;
+}
+
+.font-7 {
+    font-family: "Playwrite AU QLD", cursive;
+}
+
 
 body {
 
