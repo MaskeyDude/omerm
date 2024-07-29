@@ -1,7 +1,21 @@
 body {
-    background-color: #000;
+    /* background-color: darkred; */
+    /* background: url(./../images/dark-blue-retro-grid-gfx.png); */
+    max-width: 46em;
+    /* width: 90%; */
+    background: url(./../images/soft-bluish-retro-grid.jpeg);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    margin: 1em auto;
+    /* border: 1px solid; */
 }
 
+main {
+    margin: 0;
+    border-radius: 0.6em 0.6em 0 0;
+    background-color: #000000;
+}
 
 .home-nav {
     display: flex;
@@ -11,6 +25,7 @@ body {
     box-shadow: 0 0 6px 0 #000000;
     width: 100%;
     padding: 0 0.7em;
+    border-radius: 0.6em 0.6em 0 0;
 }
 
 .about-moon {
@@ -29,6 +44,7 @@ body {
 
 .home-nav a {
     padding: 0;
+    /* width: 100%; */
     width: fit-content;
     text-align: center;
     border-radius: 2px;
@@ -57,11 +73,39 @@ body {
     color: aqua;
 }
 
+.page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0.6em auto;
+    padding: 0 0.2em;
+    text-align: center;
+}
+
+.page-nav a {
+    width: 100%;
+    margin: 0 0.2em;
+    /* padding: 0 0.4em; */
+    font-size: 1.2em;
+    font-family: "Unica One", sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.66);
+    /* background-color: #08102B; */
+    transition: 0.4s;
+}
+
+.page-nav a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
 /* mesage */
 
 .construction {
     font-family: "Abel", sans-serif;
-    padding: 4em;
+    margin: 2em 0.6em;
+    /* padding: 0 1em; */
     font-size: 1.4em;
     text-align: center;
 }
@@ -151,3 +195,6 @@ body {
 
 
 
+footer {
+    border-radius: 0 0 0.6em 0.6em;
+}
