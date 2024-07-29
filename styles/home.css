@@ -14,7 +14,7 @@ body {
 main {
     margin: 0;
     border-radius: 0.6em 0.6em 0 0;
-    background-color: #000000;
+    background-color: #000000; 
 }
 
 .home-nav {
@@ -73,31 +73,77 @@ main {
     color: aqua;
 }
 
-.page-nav {
+.slider-btns {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-    margin: 0.6em auto;
-    padding: 0 0.2em;
-    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
 }
 
-.page-nav a {
-    width: 100%;
+.prev-btn,
+.next-btn {
+    /* display: block; */
+    margin: 0 1em;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.7s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.slider-nav {
+    position: relative;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* width: 70%; */
+    width: 10em;
+    overflow: hidden;
+    margin: 0.6em auto;
+    padding: 0.4em 0;
+    border-radius: 0.4em;
+    text-align: center;
+    background-color: #fff;
+}
+
+.slider-nav a {
+    /* float: left; */
+    /* width: 100px; */
+    /* width: 100%; */
+    display: block;
     margin: 0 0.2em;
-    /* padding: 0 0.4em; */
+    padding: 0 0.4em;
     font-size: 1.2em;
     font-family: "Unica One", sans-serif;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.66);
-    /* background-color: #08102B; */
+    background-color: #08102B;
     transition: 0.4s;
 }
 
-.page-nav a:hover {
+.slider-nav a:hover {
     color: #fff;
     font-weight: bold;
+}
+
+.slider {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: left 0.6s;
+    display: flex;
 }
 
 /* mesage */
