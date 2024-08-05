@@ -24,6 +24,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
 /* 7 font-family: "Playwrite AU QLD", cursive; */
 
+/* fonts */
 
 .font-0 {
     font-family: "Unica One", sans-serif;
@@ -56,8 +57,6 @@
 .font-7 {
     font-family: "Playwrite AU QLD", cursive;
 }
-
-
 
 
 /* all + main */
@@ -284,48 +283,40 @@ footer {
     color: rgb(163, 34, 34);
 }
 
+/* custom styling */
 
+.lil-margin {
+    margin-bottom: 0.6em;
+}
 
+.lil-sizing {
+    font-size: larger;
+}
 
+.small-sizing {
+    font-size: smaller;
+}
 
+.big-sizing {
+    font-size: larger;
+}
 
+.italic-lett {
+    font-style: italic;
+}
 
+.big-lett {
+    font-variant: small-caps;
+}
 
+.light-lett {
+    font-weight: lighter;
+}
 
+.bold-lett {
+    font-weight: bolder;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.red {
+    color: #8b0000;
+}
