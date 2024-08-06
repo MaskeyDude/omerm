@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
 function Display_Blog_Cards(Blog_Cards) {
     let Display_Card = Blog_Cards.map(function (item) {
-        return `<div class="blog">
+        return `<div class="blog-card">
                     <a href="${item.link}">${item.title}</a>
                     <p class="time">${item.time}</p>
                 </div>`;

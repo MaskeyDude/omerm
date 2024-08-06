@@ -187,14 +187,14 @@ footer {
     box-shadow: 0 0 6px 0 #ff1313;
 }
 
-.blog a {
+.blog-card a {
     color: #fafafa;
     text-decoration: none;
     transition: 0.4s;
     font-family: "Unica One", sans-serif;
 }
 
-.blog a:hover {
+.blog-card a:hover {
     color: red;
 }
 
@@ -242,17 +242,34 @@ footer {
         line-height: 1em;
     }
 
+    
 }
+
+@media (max-width: 550px) {
+
+    .blog-card a {
+        font-size: 1em;
+    }
+    
+    /* .blog-info h1 {
+        font-size: 1.7em;
+    } */
+
+}
+
 
 /* one blog edits */
 
 .blog-info {
+    max-width: 96%;
+    margin: 0 auto;
     text-align: center;
     /* color: #fafafa; */
 }
 
 .blog-info h1 {
     font-family: "Unica One", sans-serif;
+    /* font-size: 2em; */
     text-align: center;
     color: rgb(163, 34, 34);
 }
@@ -263,7 +280,7 @@ footer {
 }
 
 .blog-info hr {
-    width: 94%;
+    width: 90%;
     height: 1px;
     margin: 1em auto 1.2em auto;
     border: none;
@@ -318,5 +335,5 @@ footer {
 }
 
 .red {
-    color: #8b0000;
+    color: rgb(163, 34, 34);
 }
