@@ -76,7 +76,7 @@ body {
     background-color: #fff;
 }
 
-/* nav */
+/* main nav */
 
 nav {
     display: flex;
@@ -123,6 +123,13 @@ nav a:hover {
     margin: -0.2em 0 0 0;
 }
 
+.active-page {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/* a lil nav */
+
 .nav {
     display: flex;
     align-items: center;
@@ -156,9 +163,8 @@ nav a:hover {
 
 main {
     color: #fff;
-    max-width: 50em;
     margin: 0 auto;
-    padding: 1.7em 1em;
+    padding: 1em;
     /* for footer */
     min-height: 100vh;
 }
@@ -167,6 +173,8 @@ main {
     font-family: "Abel", sans-serif;
     font-size: 2.4em;
 }
+
+/* footer */
 
 footer {
     display: block;
@@ -182,44 +190,49 @@ footer p {
 }
 
 
+/* a lil */
 
 
+.space-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0.6em;
+    font-family: "Unica One", sans-serif;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border: 1px groove rgba(255, 255, 255, 0.6);
+    border-radius: 0.6em;
+    transition: 0.4s;
+}
+
+.space-btn:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+    /* font-size: 0.9em; */
+    font-weight: bold;
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
+    visibility: visible;
+}
 
 
+.lil-info {
+    /* max-width: 80%; */
+    width: 40em;
+    margin: 1em auto;
+    padding: 0 1em;
+    /* text-align: center; */
+    font-size: 1em;
+    font-family: "Playwrite AU QLD", cursive;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.lil-date {
+    text-align: right;
+    font-style: italic;
+    margin: 0.6em 0;
+    font-family: "Afacad", sans-serif;
+    font-size: 0.7em;
+    color: #999;
+}

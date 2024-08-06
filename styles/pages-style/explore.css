@@ -86,20 +86,15 @@ nav a:hover {
 .active-page {
     color: #fdcf4f;
     border-color: #fdcf4f;
-}
-
-.after-dropdown  {
-    font-size: 0.8em;
-}
-
-.after-dropdown a {
-    padding: 0.2em;
-    color: rgba(253, 207, 79, 0.4);
+    font-size: 1.7em;
+    text-decoration: none;
 }
 
 main {
     margin: 0.6em;
 }
+
+/* title */
 
 .explore-info {
     text-align: center;

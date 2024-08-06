@@ -59,11 +59,19 @@
 
 
 body {
-
     font-family: "Abel", sans-serif;
     /* font-family: "Courier Prime", monospace; */
     /* background-color: rgb(5, 14, 29); */
 }
+
+.active-page {
+    font-size: 1.7em;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* about */
 
 .headings {
     text-align: center;

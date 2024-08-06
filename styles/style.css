@@ -89,7 +89,7 @@ body {
     background-color: #fff;
 }
 
-nav {
+/* nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -117,68 +117,61 @@ nav a {
     font-size: 1.9em;
     color: white;
     font-weight: bold;
-}
+} */
 
-nav a:hover {
-    font-weight: bolder;
-    color: white;
-    letter-spacing: 2px;
-}
-
-.active-page {
+/* .active-page {
     border-bottom: 1px solid;
     font-weight: bold;
     color: white;
     letter-spacing: 2px;
-    /* background-color: rgba(255, 255, 255, 0.4); */
+    background-color: rgba(255, 255, 255, 0.4);
+} */
+
+.active-page {
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
-/* nav dropdown */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    margin-bottom: 1.8em;
+    padding: 0em 0.6em 0.2em 0.6em;
+    box-shadow: 0 0 2px 0 #666;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.8); */
+}
 
-.nav-dropdown {
-    display: none;
-    /* visibility: hidden; */
-    /* position: absolute;
-    z-index: 1; */
-    width: fit-content;
-    margin: 0.6em 1em;
-    border-radius: 0.4em 0.4em 0 0;
-    /* font-family: "Abel", sans-serif; */
+nav a {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.33);
+    text-decoration: none;
     font-family: "Afacad", sans-serif;
 }
 
-.nav-dropdown a {
-    display: inline-block;
-    /* width: 100%; */
-    margin: 0.1em;
-    padding: 0.4em 2em;
-    font-size: 1.2em;
-    text-decoration: none;
-    border: 1px solid;
-    border-radius: 0.4em 0.4em 0 0;
-    color: rgba(255, 255, 255, 0.46);
-    transition: 0.4s;
-}
-
-.nav-dropdown a:hover {
+nav a:hover {
     color: #fff;
-    border: 1px solid;
 }
 
-.nav-visible {
-    display: block;
-    /* visibility: visible; */
+.about-moon {
+    width: min-content;
+    rotate: -30deg;
+    font-size: 1.5em;
 }
 
-.after-dropdown  {
-    box-shadow: none;
-    font-size: 0.8em;
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.4); */
+.web-title {
+    margin: -0.17em 0 0 0;
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #fff;
 }
 
-.after-dropdown a {
-    padding: 0.2em;
-    color: rgba(255, 255, 255, 0.4);
+.explore-star {
+    width: min-content;
+    rotate: 37deg;
+    font-size: 1.4em;
 }
 
 main {
@@ -186,6 +179,8 @@ main {
     /* for footer */
     min-height: 100vh;
 }
+
+/* footer */
 
 footer {
     display: block;
@@ -200,52 +195,3 @@ footer {
 footer p {
     padding: 1em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
