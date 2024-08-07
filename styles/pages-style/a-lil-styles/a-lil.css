@@ -136,6 +136,7 @@ nav a:hover {
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    /* padding: 0 6em; */
     text-align: center;
 }
 
@@ -146,9 +147,10 @@ nav a:hover {
 }
 
 .nav a {
-    width: 100%;
-    /* margin: 0 0.4em; */
-    padding: 0.2em 0em;
+    /* width: 100%; */
+    display: block;
+    margin: 0 auto;
+    padding: 0.2em 1em;
     font-size: 1.4em;
     font-family: "Abel", sans-serif;
     font-weight: lighter;

@@ -1,3 +1,47 @@
+// story popup
+function Toggle_Story_Popup(num) {
+    document.getElementById(`story-${num}`).classList.toggle("active-story-popup");
+}
+
+
+function Desc_Appear() {
+    var Section_Desc = document.querySelector(".section-desc");
+    Section_Desc.classList.toggle("hide-show-desc");
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // author story cards
 // const Card = [
 //     {
@@ -99,24 +143,3 @@
 //     Story_Popup.innerHTML = Display_Story;
 
 // };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const Story_Close_Btn = document.querySelector(".story-close-btn");
-
-
-function Toggle_Story_Popup(num) {
-    document.getElementById(`story-${num}`).classList.toggle("active-story-popup");
-}

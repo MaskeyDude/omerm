@@ -57,12 +57,79 @@
     font-family: "Playwrite AU QLD", cursive;
 }
 
+/* custom styling */
+
+.lil-margin {
+    margin-bottom: 0.6em;
+}
+
+/* .lil-sizing {
+    font-size: larger;
+} */
+
+.small-sizing {
+    font-size: smaller;
+}
+
+.big-sizing {
+    font-size: larger;
+}
+
+.italic-lett {
+    font-style: italic;
+}
+
+.big-lett {
+    font-variant: small-caps;
+}
+
+.light-lett {
+    font-weight: lighter;
+}
+
+.bold-lett {
+    font-weight: bolder;
+}
+
+.red {
+    color: rgb(163, 34, 34);
+}
+
+/* section */
+.hide-show-desc {
+    display: none;
+}
+
+.section-info {
+    
+}
+
+.section-title {
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    /* font-family: "Dancing Script", cursive; */
+    font-family: "Great Vibes", cursive;
+}
+
+.section-desc {
+    font-variant: small-caps;
+    /* width: 90%; */
+    margin: 0 auto;
+    padding: 0 1em;
+    font-size: 1.3em;
+    /* font-family: "Arsenal SC", sans-serif; */
+    font-family: ar;
+    font-family: "Unica One", sans-serif;
+    animation: fade-in 1s; 
+}
+
 
 /* picos stories */
 
 .picos-stories {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
 }
 
 .pico-story {
@@ -87,6 +154,10 @@
     font-size: 1.4em;
 }
 
+.story-info h3 {
+    font-size: 1em;
+}
+
 .read-story-btn {
     cursor: pointer;
     background: none;
@@ -106,7 +177,7 @@
 }
 
 .story-date {
-    font-family: "Unica One", sans-serif;   
+    font-family: "Unica One", sans-serif;
     text-align: center;
     font-size: 0.8em;
     color: #444;
@@ -133,52 +204,132 @@
 
 .pico-story-popup {
     display: none;
+    animation: fade-in 0.4s;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .pico-story-popup .overlay {
     position: fixed;
-    top:0px;
-    left:0px;
-    width:100vw;
-    height:100vh;
-    background:rgba(0,0,0,0.7);
-    z-index:1;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
 }
 
-.pico-story-content {
-    /* visibility: hidden; */
-    /* display: grid; */
-    /* grid-template-columns: 2fr 1fr; */
-    /* display: block; */
-    box-sizing: border-box;
+.story-close-btn {
+    cursor: pointer;
     position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    right: 0.2em;
+    top: 0em;
+    color: rgba(255, 255, 255, 0.4);
+    border: none;
+    background: none;
+    font-size: 1.6em;
+    text-align: center;
+    border-radius: 0.2em;
+    transition: 0.4s;
+}
+
+.story-close-btn:hover {
+    color: #fff;
+}
+
+.active-story-popup {
+    display: block;
+}
+
+/* popup content */
+
+.pico-story-popup .pico-story-content {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
-    width: 90%;
-    padding: 0.8em 0.6em;
+    width: 32em;
+    padding: 0.6em;
     border-radius: 0.4em;
-    background-color: #0c0c0c;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../images/for-pages/lil-author/story-0.jpg);
 }
 
 .pico-story-popup div {
-    margin: 0 0.4em;
+    /* margin: 0 0.4em; */
     font-family: "Afacad", sans-serif;
-    font-family: "Abel", sans-serif;
+    /* font-family: "Abel", sans-serif; */
 }
+
+/* pico section */
+
+.pico-section {}
 
 .pico-section img {
     width: 100%;
     margin-bottom: 0.2em;
-    border-radius: 0.4em 0.4em 0 0;
+    border-radius: 0.4em;
 }
 
-.story-date {
-
+.story-name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.1em;
 }
 
+/* story section */
 
-.active-story-popup {
-    display: block;
+.story-section {}
+
+.story-section h3 {
+    font-size: 1.6em;
+}
+
+.story-section p {
+    font-size: 1.4em;
+}
+
+.story-section hr {
+    height: 1px;
+    margin: 0.4em 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.4em;
+}
+
+.popup-story-date {
+    color: rgba(255, 255, 255, 0.3);
+    font-family: "Unica One", sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.popup-story-date:hover {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+@media (max-width: 550px) {
+    .pico-story-popup .pico-story-content {
+        width: 80%;
+        top: 55%;
+    }
+
+    .story-section h3 {
+        font-size: 1.2em;
+    }
+
+    .story-section p {
+        font-size: 1.1em;
+    }
 }
