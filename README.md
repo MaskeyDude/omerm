@@ -13,3 +13,7 @@ Well this is my website! Yay!!
 <br>
 
 <a href="https://stackoverflow.com/questions/63066897/how-can-i-add-a-black-layer-over-top-of-image-with-opacity">How can i add a black layer over top of image with opacity?</a>
+
+<br>
+
+<a href="https://blog.hubspot.com/website/css-fade-in">Fade-in animation in CSS</a>
