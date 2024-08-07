@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Author</title>
     <!-- styles -->
+    <link rel="stylesheet" href="../../styles/pages-style/a-lil-styles/author.css">
     <link rel="stylesheet" href="../../styles/pages-style/a-lil-styles/a-lil.css">
 </head>
 
@@ -16,7 +17,7 @@
         <a href="../about.html" class="about-moon">☾</a>
         <a href="../blogs/blog.html" class="font-6">blogs</a>
         <a href="../../index.html" class="web-title">omerm</a>
-        <a href="../a-lil/a-lil.html" class="font-6" >a lil</a>
+        <a href="../a-lil/a-lil.html" class="font-6">a lil</a>
         <a href="../explore.html" class="explore-star font-7">✮</a>
     </nav>
 
@@ -34,6 +35,56 @@
         <!-- me like this btn :> -->
         <!-- <button class="q-btn">˗ˏˋ ★ ◯ ☽ ◑ ● ◐ ❨ ◯ ★ ˎˊ˗</button> -->
 
+        <article class="picos-stories">
+
+            <!-- story card 0 -->
+
+            <div class="pico-story">
+                <a href="https://www.pexels.com/photo/morning-sunrise-27282677/" target="_blank">
+                    <img src="../../images/for-pages/lil-author/story-0.jpg" alt="By santhepix [Pexels]">
+                </a>
+                <div class="story-info">
+                    <p>Story #0</p>
+                    <button class="read-story-btn" onclick="Toggle_Story_Popup('0')">READ</button>
+                </div>
+                <div class="story-date">
+                    <hr>
+                    <p>WED, 07 AUG 2024 AT 12:54 AM</p>
+                </div>
+            </div>
+
+            <!-- story popup 0 -->
+
+            <section class="pico-story-popup" id="story-0">
+                <div class="overlay"></div>
+                <div class="pico-story-content">
+                    <button class="story-close-btn" onclick="Toggle_Story_Popup('0')">&times;</button>
+                    <div class="pico-section">
+                        <a href="https://www.pexels.com/photo/morning-sunrise-27282677/" target="_blank">
+                            <img src="../../images/for-pages/lil-author/story-0.jpg" alt="By santhepix [Pexels]">
+                        </a>
+                    </div>
+                    <div class="story-section">
+                        <p>
+                            I remember looking out at mountains far looking like soft blue shadows turning golden
+                            through
+                            the breaks of dusk. I remember being there while the wind coming through opened windows
+                            caused a lot
+                            of noise.
+                            I remember the warm hands rubbing my cold stiff ones while her face found rest on my
+                            shoulder. I
+                            remember the car not moving slower. Though I recall how only the slowed time remembers my
+                            mind
+                            invariant
+                            stood the bluster yet with her, how silent remained my mind.
+                        </p>
+                        <p class="story-date">WED, 07 AUG 2024 AT 12:54 AM</p>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+
     </main>
 
     <!-- footer -->
@@ -41,6 +92,7 @@
         <p>Copyright &copy; 2024 Omer Muhammad</p>
     </footer>
 
+    <script src="../../scripts/pages-scripts/a-lil/author.js"></script>
     <script src="../../scripts/pages-scripts/a-lil/a-lil.js"></script>
     <script src="../../scripts/script.js"></script>
 </body>

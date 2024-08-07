@@ -56,3 +56,129 @@
 .font-7 {
     font-family: "Playwrite AU QLD", cursive;
 }
+
+
+/* picos stories */
+
+.picos-stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+.pico-story {
+    margin: 0.2em;
+    padding: 0.4em;
+    display: block;
+    font-family: "Abel", sans-serif;
+    border-radius: 0.4em;
+    border: 1px solid #1a1a1a;
+}
+
+.pico-story img {
+    width: 100%;
+    margin-bottom: 0.2em;
+    border-radius: 0.4em 0.4em 0 0;
+}
+
+.story-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4em;
+}
+
+.read-story-btn {
+    cursor: pointer;
+    background: none;
+    color: rgba(168, 111, 46, 0.4);
+    border-radius: 0.2em;
+    border: 1px solid rgba(168, 111, 46, 0.4);
+    padding: 0em 0.4em 0.1em 0.4em;
+    font-size: 0.8em;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    transition: 0.4s;
+}
+
+.read-story-btn:hover {
+    color: #a86f2e;
+    border-color: #a86f2e;
+}
+
+.story-date {
+    font-family: "Unica One", sans-serif;   
+    text-align: center;
+    font-size: 0.8em;
+    color: #444;
+}
+
+.story-date p {
+    transition: 0.4s;
+
+}
+
+.story-date p:hover {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.story-date hr {
+    border: none;
+    height: 1px;
+    background-color: #1a1a1a;
+    margin: 0.4em 0;
+}
+
+/* pop up */
+
+.pico-story-popup {
+    display: none;
+}
+
+.pico-story-popup .overlay {
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+}
+
+.pico-story-content {
+    /* visibility: hidden; */
+    /* display: grid; */
+    /* grid-template-columns: 2fr 1fr; */
+    /* display: block; */
+    box-sizing: border-box;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 2;
+    width: 90%;
+    padding: 0.8em 0.6em;
+    border-radius: 0.4em;
+    background-color: #0c0c0c;
+}
+
+.pico-story-popup div {
+    margin: 0 0.4em;
+    font-family: "Afacad", sans-serif;
+    font-family: "Abel", sans-serif;
+}
+
+.pico-section img {
+    width: 100%;
+    margin-bottom: 0.2em;
+    border-radius: 0.4em 0.4em 0 0;
+}
+
+.story-date {
+
+}
+
+
+.active-story-popup {
+    display: block;
+}
