@@ -70,12 +70,19 @@
   /* background-color: red; */
   text-align: center;
   padding: 0.4em;
-  border: rgba(255, 255, 255, 0.6) dashed 1px;
+  border: rgba(203, 92, 255, 0.6) dashed 1px;
+  transition: 0.4s;
+}
+
+.website:hover {
+  background-color: rgba(203, 92, 255, 0.4);
+  box-shadow: 0 0 60px 10px rgba(203, 92, 255, 0.4);
 }
 
 .website-img img {
   width: 100%;
   border-radius: 0.4em 0.4em 0 0;
+  transition: 0.4s;
 }
 
 .website-btns {
@@ -95,8 +102,8 @@
   font-family: "Unica One", sans-serif;
   font-size: 1.2em;
   text-decoration: none;
-  color: gray;
-  border: 1px solid gray;
+  color: rgba(203, 92, 255, 0.6);
+  border: 1px solid rgba(203, 92, 255, 0.6);
   border-radius: 0.2em;
   padding: 0.2em 0.4em;
   transition: 0.4s;
