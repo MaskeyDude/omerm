@@ -1,156 +1,143 @@
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap");
 /* 0 font-family: "Unica One", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 /* 1 font-family: "Dancing Script", cursive; */
 
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 /* 2 font-family: "Abel", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* 3 font-family: "Courier Prime", monospace; */
 
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* 4 font-family: "Arsenal SC", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 /* 5 font-family: "Great Vibes", cursive; */
 
-@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap");
 /* 6 font-family: "Afacad", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap");
 /* 7 font-family: "Playwrite AU QLD", cursive; */
 
-
 .font-0 {
-    font-family: "Unica One", sans-serif;
+  font-family: "Unica One", sans-serif;
 }
 
 .font-1 {
-    font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .font-2 {
-    font-family: "Abel", sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .font-3 {
-    font-family: "Courier Prime", monospace;
+  font-family: "Courier Prime", monospace;
 }
 
 .font-4 {
-    font-family: "Arsenal SC", sans-serif;
+  font-family: "Arsenal SC", sans-serif;
 }
 
 .font-5 {
-    font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .font-6 {
-    font-family: "Afacad", sans-serif;
+  font-family: "Afacad", sans-serif;
 }
 
 .font-7 {
-    font-family: "Playwrite AU QLD", cursive;
+  font-family: "Playwrite AU QLD", cursive;
 }
 
-
 body {
-    font-family: "Abel", sans-serif;
-    /* font-family: "Courier Prime", monospace; */
-    /* background-color: rgb(5, 14, 29); */
+  font-family: "Abel", sans-serif;
+  /* font-family: "Courier Prime", monospace; */
+  /* background-color: rgb(5, 14, 29); */
 }
 
 .active-page {
-    font-size: 1.7em;
-    text-decoration: none;
-    color: #fff;
+  font-size: 1.7em;
+  text-decoration: none;
+  color: #fff;
 }
-
 
 /* about */
 
+.page-title {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.page-title hr {
+    margin: 0 auto;
+    width: 80%;
+    height: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.the-hr {
+  margin: 1em auto;
+  width: 80%;
+  height: 1px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 .headings {
-    text-align: center;
-    color: #fff;
-    font-family: "Playwrite AU QLD", cursive;
-    /* font-family: "Dancing Script", cursive; */
-    font-variant: small-caps;
-    letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  font-variant: small-caps;
+  letter-spacing: 2px;
 }
 
 .box {
-    width: fit-content;
-    /* max-width: 60em; */
-    width: 80%;
-    margin: 1em auto;
-    padding: 1em;
-    border: 2px rgb(131, 131, 131);
-    border-style: dotted;
-    border-radius: 0.6em;
-    box-shadow: 0px 0px 4px 1px rgb(255, 255, 255);
+  width: 60%;
+  margin: 1em auto;
+  padding: 1em;
+  border: 2px rgb(131, 131, 131);
+  border-radius: 0.8em;
+  box-shadow: 0px 0px 600px 1px rgb(0, 217, 255);
+  background-color: rgba(0, 217, 255, 0.1);
 }
 
-article {
-    /* width: 96%; */
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, fit-content);
-    /* grid-template-rows: repeat(2, fit-content);  */
-    font-style: italic;
+.box div {
+  width: 96%;
+  margin: 0 auto;
 }
 
-section {
-    line-height: 1.6em;
+@media (max-width: 600px) {
+  .box {
+    width: 90%;
+  }
+
+  .box div {
+    width: 100%;
+  }
 }
 
-section p {
-    /* margin: 0.4em 0; */
-}
-
-.one {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.two {
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-.three {
-    grid-area: 3 / 1 / 4 / 2;
-}
-
-.four {
-    grid-area: 4 / 2 / 5 / 3;
+.box section {
+  margin-bottom: 0.7em;
 }
 
 .date {
-    margin: 2em 0 0 0;
-    text-align: end;
-    font-family: "Unica One", sans-serif;
-    font-size: 0.6em;
-    color: rgba(255, 255, 255, 0.3);
+  margin: 2em 0 0 0;
+  font-family: "Unica One", sans-serif;
+  font-size: 0.6em;
+  text-align: end;
+  color: rgba(255, 255, 255, 0.3);
+  transition: 0.4s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.date:hover {
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: bolder;
+}

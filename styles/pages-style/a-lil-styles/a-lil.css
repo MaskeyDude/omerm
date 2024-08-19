@@ -1,240 +1,245 @@
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Unica+One&display=swap");
 /* 0 font-family: "Unica One", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 /* 1 font-family: "Dancing Script", cursive; */
 
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 /* 2 font-family: "Abel", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* 3 font-family: "Courier Prime", monospace; */
 
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* 4 font-family: "Arsenal SC", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 /* 5 font-family: "Great Vibes", cursive; */
 
-@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap");
 /* 6 font-family: "Afacad", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap");
 /* 7 font-family: "Playwrite AU QLD", cursive; */
 
-
 .font-0 {
-    font-family: "Unica One", sans-serif;
+  font-family: "Unica One", sans-serif;
 }
 
 .font-1 {
-    font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .font-2 {
-    font-family: "Abel", sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .font-3 {
-    font-family: "Courier Prime", monospace;
+  font-family: "Courier Prime", monospace;
 }
 
 .font-4 {
-    font-family: "Arsenal SC", sans-serif;
+  font-family: "Arsenal SC", sans-serif;
 }
 
 .font-5 {
-    font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .font-6 {
-    font-family: "Afacad", sans-serif;
+  font-family: "Afacad", sans-serif;
 }
 
 .font-7 {
-    font-family: "Playwrite AU QLD", cursive;
+  font-family: "Playwrite AU QLD", cursive;
 }
 
 /* across every lil pagooo! */
 
-
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    /* color: #fafafa; */
-    background-color: #000;
-    /* background-color: #f6f6f6; */
+  /* color: #fafafa; */
+  background-color: #000;
+  /* background-color: #f6f6f6; */
 }
 
 ::selection {
-    color: #000;
-    background-color: #fff;
+  color: #000;
+  background-color: #fff;
 }
 
 /* main nav */
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #000;
-    margin-bottom: 1.8em;
-    padding: 0em 0.6em 0.2em 0.6em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  margin-bottom: 1.8em;
+  padding: 0em 0.6em 0.2em 0.6em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 nav a {
-    font-size: 1.2em;
-    
+  font-size: 1.2em;
 }
 
 nav a {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
 }
 
 nav a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .about-moon {
-    width: min-content;
-    rotate: -30deg;
-    font-size: 1.5em;
-    /* background-color: red; */
+  width: min-content;
+  rotate: -30deg;
+  font-size: 1.5em;
+  /* background-color: red; */
 }
 
 .web-title {
-    margin: -0.17em 0 0 0;
-    font-family: "Playwrite AU QLD", cursive;
-    font-size: 1.3em;
-    /* font-weight: bolder; */
-    color: #fff;
+  margin: -0.17em 0 0 0;
+  font-family: "Playwrite AU QLD", cursive;
+  font-size: 1.3em;
+  /* font-weight: bolder; */
+  color: #fff;
 }
 
 .explore-star {
-    rotate: 37deg;
-    font-size: 1.4em;
-    margin: -0.2em 0 0 0;
+  rotate: 37deg;
+  font-size: 1.4em;
+  margin: -0.2em 0 0 0;
 }
 
 .active-page {
-    text-decoration: underline;
-    font-weight: bolder;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 /* a lil nav */
 
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
-    /* padding: 0 6em; */
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  /* padding: 0 6em; */
+  text-align: center;
 }
 
 .nav a:is(:link, :active, :visited).nav-active {
-    color: #fff;
-    font-weight: bolder;
-    border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: bolder;
+  border-bottom: 2px solid #fff;
 }
 
 .nav a {
-    /* width: 100%; */
-    display: block;
-    margin: 0 auto;
-    padding: 0.2em 1em;
-    font-size: 1.4em;
-    font-family: "Abel", sans-serif;
-    font-weight: lighter;
-    /* border-bottom: 1px solid #fff; */
-    text-decoration: none;
-    color: #444;
+  /* width: 100%; */
+  display: block;
+  margin: 0 auto;
+  padding: 0.2em 1em;
+  font-size: 1.4em;
+  font-family: "Abel", sans-serif;
+  font-weight: lighter;
+  /* border-bottom: 1px solid #fff; */
+  text-decoration: none;
+  color: #444;
 }
 
 .nav a:hover {
-    color: #fff;
+  color: #fff;
+}
+
+@media (max-width: 650px) {
+  .nav {
+    width: 100%;
+    display: block;
+  }
+
+  .nav a {
+    width: 100%;
+  }
 }
 
 main {
-    color: #fff;
-    margin: 0 auto;
-    padding: 1em;
-    /* for footer */
-    min-height: 100vh;
+  color: #fff;
+  margin: 0 auto;
+  padding: 1em;
+  /* for footer */
+  min-height: 100vh;
 }
 
 .page-title {
-    font-family: "Abel", sans-serif;
-    font-size: 2.4em;
+  font-family: "Abel", sans-serif;
+  font-size: 2.4em;
 }
 
 /* footer */
 
 footer {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-family: "Courier Prime", monospace;
-    font-size: 1em;
-    font-weight: bold;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: "Courier Prime", monospace;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 footer p {
-    padding: 1em;
+  padding: 1em;
 }
-
 
 /* a lil */
 
-
 .space-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 0.6em;
-    font-family: "Unica One", sans-serif;
-    font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.6);
-    background: none;
-    border: 1px groove rgba(255, 255, 255, 0.6);
-    border-radius: 0.6em;
-    transition: 0.4s;
+  display: block;
+  margin: 0 auto;
+  padding: 0.6em;
+  font-family: "Unica One", sans-serif;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.6);
+  background: none;
+  border: 1px groove rgba(255, 255, 255, 0.6);
+  border-radius: 0.6em;
+  transition: 0.4s;
 }
 
 .space-btn:hover {
-    cursor: pointer;
-    letter-spacing: 2px;
-    /* font-size: 0.9em; */
-    font-weight: bold;
-    color: #fff;
-    border-color: #fff;
-    border-width: 2px;
-    visibility: visible;
+  cursor: pointer;
+  letter-spacing: 2px;
+  /* font-size: 0.9em; */
+  font-weight: bold;
+  color: #fff;
+  border-color: #fff;
+  border-width: 2px;
+  visibility: visible;
 }
 
-
 .lil-info {
-    /* max-width: 80%; */
-    width: 40em;
-    margin: 1em auto;
-    padding: 0 1em;
-    /* text-align: center; */
-    font-size: 1em;
-    font-family: "Playwrite AU QLD", cursive;
+  /* max-width: 80%; */
+  width: 96%;
+  margin: 1em auto;
+  /* padding: 0 1em; */
+  /* text-align: center; */
+  font-size: 1em;
+  font-family: "Playwrite AU QLD", cursive;
 }
 
 .lil-date {
-    text-align: right;
-    font-style: italic;
-    margin: 0.6em 0;
-    font-family: "Afacad", sans-serif;
-    font-size: 0.7em;
-    color: #999;
+  text-align: right;
+  font-style: italic;
+  margin: 0.6em 0;
+  font-family: "Afacad", sans-serif;
+  font-size: 0.7em;
+  color: #999;
 }
