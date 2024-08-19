@@ -69,16 +69,12 @@
 /* home page */
 
 body {
-    /* background-color: darkred; */
-    /* background: url(./../images/dark-blue-retro-grid-gfx.png); */
-    max-width: 46em;
-    /* width: 90%; */
+    /* max-width: 46em;
     background: url(./../images/soft-bluish-retro-grid.jpeg);
     background-size: 180%;
     background-repeat: no-repeat;
     background-position: 80%;
-    margin: 1em auto;
-    /* border: 1px solid; */
+    margin: 1em auto; */
 }
 
 main {
@@ -200,8 +196,8 @@ main {
     font-size: 1.2em;
     font-family: "Unica One", sans-serif;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.66);
-    background-color: #08102B;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #000000;
     transition: 0.4s;
 }
 
