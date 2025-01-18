@@ -33,11 +33,11 @@ function Move_Slider(direction) {
     Slider.style.left = currentPosition + 'px';
 }
 
-Prev_Btn.addEventListener("click", function() {
+Prev_Btn.addEventListener("click", function () {
     Move_Slider('Prev');
 });
 
-Next_Btn.addEventListener("click", function() {
+Next_Btn.addEventListener("click", function () {
     Move_Slider('Next');
 });
 
@@ -127,7 +127,6 @@ const Generate_Quote = function () {
             author: "- SCOTT BRADY"
         },
 
-
         {
             quote: "“ Relationships often struggle not because the lack of chemistry but the lack of foundation. ” (Friendship is the foundation)",
             author: "- MATTHEW HUSSEY [YT]"
@@ -147,6 +146,100 @@ const Generate_Quote = function () {
             quote: "“ As if you're like a detective... ,” “ Record everything you're drawn to... ,” only to realize “ All the things you had collected are actually just you. ”",
             author: "- CRYSTAL [YT]"
         },
+
+        {
+            quote: "“Perhaps we never truly get over the ones we love we simply learn to live with their absence the best we can. In this moment we choose the only form of love that's ever really guranteed. The love we have for ourselves.”",
+            author: "- SISYPHUS55 [YT]"
+        },
+
+        {
+            quote: "“We fear the unknown so we make-up stories.”",
+            author: "- HOLY KOOLAID [YT]"
+        },
+
+        {
+            quote: "“You don't need religion to have morals. If you can't determine right from wrong then you lack empathy not religion.”",
+            author: "- RICKY MARTIN"
+        },
+
+        {
+            quote: "“Allah is just one of the many hypothesis about god and Allah is powerless without Muslims just like Jesus is powerless without Christians.”",
+            author: "- APOSTATE ALADDIN [YT]"
+        },
+
+        {
+            quote: "“If you were never told about hell... you would not believe in hell”",
+            author: "- MINDSHIFT"
+        },
+
+        {
+            quote: "“You can't make someone value you more by giving them more of what they already don't appreciate.”",
+            author: "@PHILODIGM [IG] (MAYBE)"
+        },
+
+        {
+            quote: "“A goal without a plan is just a wish.”",
+            author: "- ANTOINE DE SAINT-EXUPERY"
+        },
+
+        {
+            quote: "“Who you are is what you do not what you say ”",
+            author: "- 'DIANE' [BOJACK HORSEMAN | SERIES] @PosiTVty [YT]"
+        },
+
+        {
+            quote: "“You can't heal what you refuse to acknowledge.”",
+            author: "- ???"
+        },
+
+        {
+            quote: "“Money doesn't change who you are; It amplifies your character.”",
+            author: "- THINK BEFORE YOU SLEEP [YT]"
+        },
+
+        {
+            quote: "“It's easy to take off all of your clothes and have sex. People do it all the time but opening up your soul to someone, letting them into your spirit, thoughts, fears, future, hopes, dreams... Now that's being naked.”",
+            author: "- ???"
+        },
+
+
+        {
+            quote: "“(Some) Men love to live in the I didn't know about the things they obviously knew.” “It's like I didn't know you were unhappy actually means I knew you were unhappy I just didn't know you were unhappy enough to leave.”",
+            author: "- @EXPATRIARCH [YT]"
+        },
+
+
+        {
+            quote: "“Expecting your partner to tolerate any level of permenent unhappiness in a relationship with you is you admitting that they would be better off and happier without you. So don't be surprised when they agree with you.”",
+            author: "- @EXPATRIARCH [YT]"
+        },
+
+
+        {
+            quote: "“It's not about making people think what we want them to think. That's exactly what abusers do. It's about empowering people with the tools to think for themselves.”",
+            author: "- @THERAMINTREES [YT]"
+        },
+
+
+        {
+            quote: "“Being single isn't about waiting for someone to complete you. It's about being complete on your own and then finding someone who appreciates that completeness.”",
+            author: "- TINA FEY"
+        },
+
+        {
+            quote: "“Poetry is found in between the words. In silences... in the pauses. Then people interpret it in different ways according to their age and maturity.”",
+            author: "- 'SIRAS' [ALIGARH MOVIE]"
+        },
+
+        {
+            quote: "“ Instead of the the simple “Be Yourself” maybe the better advice is: Be open to who you're becoming. Let yourself change, learn, adapt and grow. That's the real you. The one who's not afraid to evolve. ”",
+            author: "- ALASTAIR [YT]"
+        },
+    
+        {
+            quote: "“ Life or things in general don't come with inherent meaning. We create and assign our own meaning to them through our actions, thought and values. In fact it's usually the investment into building something; The late nights, the hard work, the perseverance, the imperfection that makes something so beautiful and magical. And that is greatness. ”",
+            author: "- CHLOE SHY [YT]"
+        },    
 
         // {
         //     quote: "“  ”",
