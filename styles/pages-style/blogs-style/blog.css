@@ -306,6 +306,10 @@ footer {
     margin-bottom: 0.6em;
 }
 
+.bigo-margin {
+    margin-bottom: 0.8em;
+}
+
 .lil-sizing {
     font-size: larger;
 }
@@ -336,4 +340,50 @@ footer {
 
 .red {
     color: rgb(163, 34, 34);
+}
+
+.glow {
+    color: #fff;
+    text-shadow: 0.8px 0.8px 6px #999;
+}
+
+.glow-red {
+    color: rgb(172, 18, 18);
+    /* text-shadow: 0.8px 0.8px 3px rgb(153, 34, 34); */
+}
+
+.glow-bluish {
+    color: #fff;
+    text-shadow: 0.6px 0.6px 2.2px #6e90ffcc;
+}
+
+.quote-box {
+    /* font-family: "Courier Prime", monospace; */
+    padding: 0.3em;
+    border: solid 1px rgb(26, 26, 26);
+    border-radius: 2px;
+    background-color: #1212;
+    text-align: justify;
+}
+
+/* 
+
+‹ ›
+« »
+‘ ’
+‛ ‚
+“ ”
+„ ‟
+❛ ❜
+❝ ❞
+〝 〞
+‷ ⁗
+` ˊ
+
+*/
+
+.dashed-border {
+    padding: 0.4em;
+    border: dashed 1px #222;
+    border-radius: 6px;
 }
